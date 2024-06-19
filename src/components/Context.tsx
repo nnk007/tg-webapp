@@ -1,6 +1,6 @@
 import { createContext } from "react";
 import { extDispatch } from "@/hooks/useUserData";
-import { Theme } from "@/hooks/useTGColorScheme";
+// import { Theme } from "@/hooks/useTGColorScheme";
 
 // @ts-expect-error
 export const WebAppCtx = createContext<TG.WebApp>();
